@@ -11,7 +11,7 @@ import wanglijun.vip.practice.utils.LogUtils;
 
 public class SortMaoPao {
     /**
-     * 从小到大
+     * 从小到大的排序方式
      */
     public static  void SamllAndBig() {
         int arr[] = {6, 3, 1, 9, 2, 35, 11};
