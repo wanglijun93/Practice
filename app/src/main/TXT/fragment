@@ -1,0 +1,12 @@
+Fragment的生命周期：
+1)	onAttach [ fragment与activity完成绑定 ]
+2)	onCreate [ 初始化fragment，可以通过savedInstanceState获取之前保存的值 ]
+3)	onCreateView [ 初始化fragment的布局 ]
+4)	onActivityCreated [ 执行该方法时候，与fragment绑定的activity的onCreate已经执行完成并返回，在该方法内可以进行与activity的UI交互操作 ]
+5)	onStart [ 由不可见变为可见 ]
+6)	onResume [ fragment处于活动状态，可以与用户交互 ]
+7)	onPause [ fragment处于暂停状态	，不能与用户交互 ]
+8)	onStop [ fragment完全不可见 ]
+9)	onDestroyView [ 销毁与fragment有关的视图， ]
+10)	onDestroy [ 销毁fragment ]
+11)	onDetach [ 解除与activity的绑定 ]
