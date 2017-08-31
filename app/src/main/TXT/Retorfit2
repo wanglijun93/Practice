@@ -1,0 +1,8 @@
+﻿Retrofit2特点
+------
+Retrofit2 网络请求框架：运用注解和动态代理
+性能好，处理快，使用简单 ，
+使用rest api
+支持NIO (新的IO api，可以替代标准的Java Io api)
+默认使用OkHTTP处理网络请求
+默认使用Gson解析
