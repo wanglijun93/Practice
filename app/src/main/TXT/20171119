@@ -1,0 +1,13 @@
+Recyclerview:
+使用layoutManager来确定每个item的显示方式。
+为增加和删除项目提供默认的显示方式。
+目前SDK中提供了三种自带的layoutManager:
+LinearLayoutManager
+GridLayoutManager
+StaggeredGridLayoutManager
+你想要控制其显示的方式，请通过布局管理器LayoutManager
+你想要控制Item间的间隔（可绘制），请通过ItemDecoration
+你想要控制Item增删的动画，请通过ItemAnimator
+你想要控制点击、长按事件，请自己写（擦，这点尼玛。）
+默认不提供分割线，添加分割线的方式：
+mRecyclerView.addItemDecoration()
