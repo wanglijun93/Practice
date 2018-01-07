@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         mSortMaoPao = (Button) findViewById(R.id.sortMaoPao);
         mSortMaoPao.setOnClickListener(this);
+		
     }
 
     @Override
